@@ -1,0 +1,64 @@
+.cardscontainer {
+  margin: 20px 0;
+  padding: 20px 0px 40px 0px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  overflow: auto;
+}
+
+.cardview{
+    display:block
+}
+
+.headerpadding {
+  padding: 30px;
+}
+
+.card {
+  margin: 0 1% !important;
+}
+
+.infected {
+  border-bottom: 10px solid #db7093;
+}
+
+.recovered {
+  border-bottom: 10px solid #91ff87;
+}
+
+.deaths {
+  border-bottom: 10px solid #cd5c5c;
+}
+
+.links {
+  border-bottom: 10px solid rgba(0, 158, 197, 0.5);
+}
+
+.btnMyGov {
+  height: 30px;
+  margin-right: 5px !important;
+  width: 95px;
+}
+
+.btnGrid {
+  margin-top: 10px !important;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    margin: 4% 0 !important;
+  }
+
+  .cardview{
+      display:inline
+  }
+}
+
+@media only screen and (max-width: 375px) {
+    .card {
+        margin: 6% 0 !important;
+      }
+
+      .cardview{
+        display:inline
+    }
+}
